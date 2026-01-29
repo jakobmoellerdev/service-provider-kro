@@ -34,8 +34,8 @@ func TestMain(m *testing.M) {
 		},
 		ServiceProviders: []providers.ServiceProviderSetup{
 			{
-				Name:  "foo",
-				Image: "controller:latest",
+				Name:  "kro",
+				Image: "ghcr.io/openmcp-project/images/service-provider-kro:0.0.1",
 			},
 		},
 	}
